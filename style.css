@@ -55,12 +55,12 @@ h4 {
   opacity: 1;
   background-size: cover;
 }
-ul {
+.nav-Container ul {
   display: flex;
   list-style: none;
   gap: 24px;
 }
-ul,
+.nav-Container ul,
 li a {
   color: #575757;
   text-decoration: none;
@@ -99,7 +99,7 @@ li a {
 }
 /* banner section end */
 
-/* card-container start */
+/* Meet the Speakers section start */
 
 .parant-Speakers {
   display: grid;
@@ -134,4 +134,77 @@ span {
   font-size: 14px;
   font-weight: 300;
 }
-/* card-container end */
+/* Meet the Speakers section end */
+
+/* Secure Your Spot section start */
+.parant-Spot {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.cards {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 40px;
+}
+.two {
+  background: #0d1b2a;
+}
+.cards ul,
+li {
+  color: #333333;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.ul li {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.cards p {
+  color: #888888;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: -5px;
+}
+.two p {
+  color: #93c5fd;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: -5px;
+}
+strong {
+  font-size: 44px;
+  font-weight: bold;
+  color: #0d1b2a;
+}
+.two strong {
+  font-size: 44px;
+  font-weight: bold;
+  color: #fff;
+}
+.cards span {
+  color: #888888;
+}
+hr {
+  width: 300px;
+  margin: 20px 0;
+}
+.btnn {
+  width: 100%;
+  margin-top: 20px;
+  background: transparent;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+}
+.two-btnn {
+  width: 100%;
+  margin-top: 20px;
+}
+/* Secure Your Spot section end */
