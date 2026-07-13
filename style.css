@@ -103,7 +103,7 @@ li a {
 
 .parant-Speakers {
   display: grid;
-  padding: 80px 115px;
+  padding: 80px 115px 130px;
   gap: 56px;
 }
 
@@ -138,7 +138,7 @@ span {
 
 /* Secure Your Spot section start */
 .parant-Spot {
-  max-width: 1000px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 .product-container {
@@ -154,6 +154,7 @@ span {
 .two {
   background: #0d1b2a;
 }
+
 .cards ul,
 li {
   color: #333333;
@@ -193,7 +194,7 @@ strong {
   color: #888888;
 }
 hr {
-  width: 300px;
+  /* width: 300px; */
   margin: 20px 0;
 }
 .btnn {
@@ -208,3 +209,21 @@ hr {
   margin-top: 20px;
 }
 /* Secure Your Spot section end */
+
+.parant-footer {
+  margin-top: 130px;
+  background-color: #0d1b2a;
+  padding: 56px 115px 69px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copy {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  color: #666;
+  font-size: 16px;
+}
