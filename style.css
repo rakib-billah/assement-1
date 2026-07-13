@@ -8,6 +8,7 @@
 }
 .Container {
   max-width: 1440px;
+  margin: 0 auto;
 }
 .btn {
   font-size: 16px;
@@ -26,10 +27,20 @@ h1 {
   font-weight: 600;
   letter-spacing: -3.2px;
 }
+h2 {
+  font-size: 56px;
+  color: #000102;
+  text-align: center;
+}
+h4 {
+  color: #0d1b2a;
+  font-size: 20px;
+}
 
 /* navbar start */
 .parant-header {
   background: white;
+  padding: 5px 115px;
 }
 .nav-Container {
   margin: 0 auto;
@@ -84,6 +95,43 @@ li a {
 }
 .hero-btn {
   position: relative;
-  top: 160px;
+  top: 120px;
 }
-/*  banner section end */
+/* banner section end */
+
+/* card-container start */
+
+.parant-Speakers {
+  display: grid;
+  padding: 80px 115px;
+  gap: 56px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.box {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+.text {
+  padding: 24px;
+}
+span {
+  color: #2563eb;
+  display: block;
+  font-size: 12px;
+}
+
+.box img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+.text p {
+  color: #666;
+  font-size: 14px;
+  font-weight: 300;
+}
+/* card-container end */
